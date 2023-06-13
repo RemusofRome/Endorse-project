@@ -1,8 +1,35 @@
-<!doctype html>
+<!DOCTYPE html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="CSS.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap"
+    rel="stylesheet"
+  />
+</head>
 
-<head></head>
 <body>
-    <h1>
-        Hello world
-    </h1>
+  <div id="container-el">
+    <img
+      src="https://img.freepik.com/free-photo/male-female-business-people-working-tablet-office_1303-22848.jpg"
+    />
+    <h1>Shout out a teammate!</h1>
+    <div id="input-el">
+      <textarea
+        type="text"
+        id="paragraph-el"
+        placeholder="Write a shout out to a teammate!"
+      ></textarea>
+      <input type="text" class="name" id="To-el" placeholder="To" />
+      <input type="text" class="name" id="From-el" placeholder="From" />
+    </div>
+    <button id="button-el">Shout out!</button>
+    <div id="shoutout-el">
+      <h2>Newest shout outs!</h2>
+      <ul id="endtext"></ul>
+    </div>
+  </div>
+  <script src="JS.js" type="module"></script>
 </body>
